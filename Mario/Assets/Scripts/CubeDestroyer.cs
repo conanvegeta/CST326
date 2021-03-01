@@ -38,7 +38,8 @@ public class CubeDestroyer : MonoBehaviour
                 {
                     Destroy(boxCollider.gameObject);
                     //Debug.Log("We heed your call");
-                    coinPoints = coinPoints + 100;
+                    coinPoints = coinPoints + 1;
+                    points = points + 100;
                     coinText.text = "Coins " + coinPoints;
                 }
 

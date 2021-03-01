@@ -15,6 +15,10 @@ public class LevelParserStarter : MonoBehaviour
 
     public GameObject Stone;
 
+    public GameObject Water;
+
+    public GameObject Goal;
+
     public Transform parentTransform;
     // Start is called before the first frame update
     void Start()
@@ -58,6 +62,8 @@ public class LevelParserStarter : MonoBehaviour
             case '?': ToSpawn = QuestionBox; break;
             case 'x': ToSpawn = Rock; break;
             case 's': ToSpawn = Stone; break;
+            case 'w': ToSpawn = Water; break;
+            case 'g': ToSpawn = Goal; break;
             //default: Debug.Log("Default Entered"); break;
             default: return;
                 //ToSpawn = //Brick;       break;

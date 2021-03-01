@@ -3,7 +3,13 @@ guid: 9e6568559d6661b4eba05e67f1401a83
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Rock: {fileID: 2990418421697316992, guid: dd9163e1a835c9f42ab91916b5d0de6b, type: 3}
+  - Brick: {fileID: 2990418421697316992, guid: 90cfce2bbd5d4ad44a5e9d694524b4a0, type: 3}
+  - QuestionBox: {fileID: 2990418421697316992, guid: 75c0547f540507c4e89e665c7256e9a7, type: 3}
+  - Stone: {fileID: 2990418421697316992, guid: 9ed9d2a8efffbc44f9cb1a41dd102276, type: 3}
+  - Water: {fileID: 2990418421697316992, guid: 8e4b7d35836ac7644af282412cc2097a, type: 3}
+  - parentTransform: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
