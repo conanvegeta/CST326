@@ -5,6 +5,7 @@ using UnityEngine;
 public class AlienBullet : MonoBehaviour
 {
 	private Rigidbody2D rigidBody;
+	public string changeToCredits;
 
 	public float speed = 30;
 
@@ -49,7 +50,7 @@ public class AlienBullet : MonoBehaviour
 			// Wait .5 seconds and then destroy Player
 			DestroyObject(col.gameObject, 0.5f);
 
-			Debug.Log("GAME OVER!!");
+			Application.LoadLevel(changeToCredits);
 			Time.timeScale = 0;
 		}
 

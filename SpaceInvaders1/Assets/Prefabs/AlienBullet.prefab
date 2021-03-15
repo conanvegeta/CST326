@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 896a888e42401934e8ac21cc701fa856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeToCredits: Credits
+  changeToMainMenu: MainMenu
   speed: 30
   explodedShipImage: {fileID: 8463096131581357343, guid: e17ac41a196b9ba4ea52196b2b120acf, type: 3}
 --- !u!50 &-4893740571139774461
